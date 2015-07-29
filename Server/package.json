@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "private": true,
+  "scripts": {
+    "start": "coffee server.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "59naga <i59naga@icloud.com> (http://berabou.me)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "coffee-script": "^1.9.3",
+    "express": "^4.13.1",
+    "lowdb": "^0.10.2"
+  }
+}
